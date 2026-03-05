@@ -1,0 +1,57 @@
+{
+    "name": "Mi PDWA",
+    "short_name": "PWDA",
+    "description": "Una Progressive Web App de ejemplo",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "start_url": "./index.html?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+        {
+            "src": "assets/icons/icono-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icono-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icono-384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icono-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icono-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icono-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icono-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icono-64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icono-16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
+}
