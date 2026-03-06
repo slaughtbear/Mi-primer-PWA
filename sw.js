@@ -1,20 +1,20 @@
 const CACHE_NAME = "v1_cache_mi_pdwa";
 
 const urlsToCache = [
-  "./",
-  "./index.php",
-  "./manifest.json",
-  "./assets/scripts/main.js",
-  "./assets/icons/icono.png",
-  "./assets/icons/icono-192.png",
-  "./assets/icons/icono-512.png",
-  "./assets/images/banner_gpa.jpg",
-  "./assets/images/perfil.jpg",
-  "./templates/banner.html",
-  "./templates/cta.html",
-  "./templates/experiencia.html",
-  "./templates/footer.html",
-  "./templates/formulario.html",
+  "./src/",
+  "./src/index.php",
+  "./src/manifest.json",
+  "./src/assets/scripts/main.js",
+  "./src/assets/icons/icono.png",
+  "./src/assets/icons/icono-192.png",
+  "./src/assets/icons/icono-512.png",
+  "./src/assets/images/banner_gpa.jpg",
+  "./src/assets/images/perfil.jpg",
+  "./src/templates/banner.html",
+  "./src/templates/cta.html",
+  "./src/templates/experiencia.html",
+  "./src/templates/footer.html",
+  "./src/templates/formulario.html",
 ];
 
 self.addEventListener("install", (e) => {
