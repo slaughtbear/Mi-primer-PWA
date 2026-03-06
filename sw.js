@@ -2,7 +2,7 @@ const CACHE_NAME = "v1_cache_mi_pdwa";
 
 const urlsToCache = [
   "./",
-  "./index.php",
+  "./index.html",
   "./manifest.json",
   "./assets/scripts/main.js",
   "./assets/icons/icono.png",
