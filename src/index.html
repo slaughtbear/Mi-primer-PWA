@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" type="image/x-icon" href="images/icono.png" />
+    <link
+      rel="apple-touch-startup-image"
+      type="image/x-icon"
+      href="images/icono.png"
+    />
+    <link rel="manifest" type="image/x-icon" href="manifest.json" />
+
+    <link rel="icon" type="image/x-icon" href="assets/icons/icono.png" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>CV Ing. Software Development</title>
+  </head>
+  <body class="bg-slate-950">
+    <section class="bg-slate-950 lg:grid lg:h-screen lg:place-content-center">
+      <div
+        class="mx-auto w-screen max-w-7xl px-4 py-16 sm:px-6 sm:py-24 md:grid md:grid-cols-2 md:items-center md:gap-4 lg:px-8 lg:py-32"
+      >
+        <div class="max-w-prose text-left">
+          <h1 class="text-4xl font-bold text-white sm:text-5xl">
+            Hola, soy Iván Aguirre,
+            <strong class="text-blue-500"> Desarrollador de Software </strong>
+            especializado en soluciones Full-Stack.
+          </h1>
+
+          <p class="mt-4 text-base text-slate-300 sm:text-lg/relaxed">
+            Apasionado por la ingeniería de software y la gestión de negocios.
+            Enfocado en el análisis, liderazgo y la aplicación de mejores
+            prácticas para crear productos robustos.
+          </p>
+
+          <div class="mt-4 flex gap-4 sm:mt-6">
+            <a
+              class="inline-block rounded border border-blue-600 bg-blue-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-blue-700"
+              href="#proyectos"
+            >
+              Ver Proyectos
+            </a>
+
+            <a
+              class="inline-block rounded border border-blue-600 px-5 py-3 font-medium text-blue-500 shadow-sm transition-colors hover:bg-slate-900"
+              href="#contacto"
+            >
+              Contactar
+            </a>
+          </div>
+        </div>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1024 768"
+          class="mx-auto hidden max-w-md text-blue-500 md:block"
+        >
+          <defs>
+            <clipPath id="circleView">
+              <circle cx="512" cy="384" r="200" />
+            </clipPath>
+          </defs>
+
+          <g fill="none" fill-rule="evenodd">
+            <circle
+              cx="512"
+              cy="384"
+              r="210"
+              fill="currentColor"
+              opacity="0.1"
+            />
+
+            <image
+              width="400"
+              height="400"
+              x="312"
+              y="184"
+              href="assets/images/perfil.jpg"
+              clip-path="url(#circleView)"
+              preserveAspectRatio="xMidYMid slice"
+            />
+
+            <g fill="currentColor" opacity="0.5">
+              <path d="M555.886 337.572..." fill="currentColor"></path>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section
+      class="overflow-hidden bg-slate-950 sm:grid sm:grid-cols-2 sm:items-center"
+    >
+      <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+        <div
+          class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
+        >
+          <p
+            class="text-blue-500 font-semibold uppercase tracking-widest text-sm"
+          >
+            Experiencia Actual
+          </p>
+          <h2 class="text-2xl font-bold text-white md:text-3xl mt-2">
+            Desarrollador Full-Stack & Analista de Datos
+          </h2>
+
+          <p class="text-slate-400 mt-4 block">
+            Desde noviembre 2025, me encargo del desarrollo y mantenimiento de
+            aplicaciones web full-stack. Además, implemento análisis de datos
+            mediante procesos de extracción, limpieza y estandarización de
+            información utilizando Python y SQL.
+          </p>
+
+          <div class="mt-4 md:mt-8">
+            <a
+              href="https://github.com/tu-usuario"
+              target="_blank"
+              class="inline-block rounded-sm bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700 focus:ring-2 focus:ring-blue-400 focus:outline-hidden"
+            >
+              Ver mi GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex h-full w-full items-center justify-center p-4 sm:p-8">
+        <img
+          alt="Grupo Punto Alto"
+          src="assets/images/banner_gpa.jpg"
+          class="max-h-full w-full object-contain rounded-lg grayscale hover:grayscale-0 transition-all duration-500 shadow-2xl"
+        />
+      </div>
+    </section>
+
+    <section class="bg-slate-950 py-16 lg:py-24">
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="max-w-xl">
+          <h2 class="text-3xl font-bold text-white sm:text-4xl">
+            Trayectoria <span class="text-blue-500">Profesional</span>
+          </h2>
+          <p class="mt-4 text-slate-400">
+            Experiencia enfocada en el desarrollo full-stack, consultoría
+            técnica y análisis de sistemas.
+          </p>
+        </div>
+
+        <div class="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-3">
+          <div
+            class="relative border-l-2 border-blue-500 bg-slate-900 p-6 shadow-xl sm:p-8"
+          >
+            <span
+              class="absolute -left-[9px] top-10 h-4 w-4 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6]"
+            ></span>
+
+            <time
+              class="text-xs font-medium text-blue-500 uppercase tracking-widest"
+            >
+              Noviembre 2025 — Actualidad
+            </time>
+
+            <h3 class="mt-3 text-xl font-bold text-white">
+              Desarrollador Full-stack
+            </h3>
+            <p class="text-sm font-semibold text-slate-300 italic">
+              Grupo Punto Alto
+            </p>
+
+            <p class="mt-4 text-sm leading-relaxed text-slate-400">
+              Desarrollo y mantenimiento de aplicaciones web full-stack e
+              implementación de análisis de datos, realizando procesos de
+              extracción, limpieza, estandarización e inserción de información
+              en bases de datos mediante SQL.
+            </p>
+
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span
+                class="rounded-full bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-500 border border-blue-500/20"
+                >JavaScript</span
+              >
+              <span
+                class="rounded-full bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-500 border border-blue-500/20"
+                >SQL</span
+              >
+              <span
+                class="rounded-full bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-500 border border-blue-500/20"
+                >Python</span
+              >
+            </div>
+          </div>
+
+          <div
+            class="relative border-l-2 border-slate-700 bg-slate-900 p-6 shadow-xl sm:p-8 transition-colors hover:border-blue-500 group"
+          >
+            <span
+              class="absolute -left-[9px] top-10 h-4 w-4 rounded-full bg-slate-700 group-hover:bg-blue-500 transition-colors"
+            ></span>
+
+            <time
+              class="text-xs font-medium text-slate-500 group-hover:text-blue-500 transition-colors uppercase tracking-widest"
+            >
+              Junio 2025 — Septiembre 2025
+            </time>
+
+            <h3 class="mt-3 text-xl font-bold text-white">
+              Consultor Técnico Júnior
+            </h3>
+            <p class="text-sm font-semibold text-slate-300 italic">ALL4</p>
+
+            <p class="mt-4 text-sm leading-relaxed text-slate-400">
+              Responsable de la implementación de sistemas EHS (Environment,
+              Health & Safety) a medida. Participación en la configuración,
+              documentación y soporte técnico del sistema.
+            </p>
+
+            <div class="mt-6 flex flex-wrap gap-2">
+              <span
+                class="rounded-full bg-slate-800 px-3 py-1 text-xs font-medium text-slate-400"
+                >EHS Systems</span
+              >
+              <span
+                class="rounded-full bg-slate-800 px-3 py-1 text-xs font-medium text-slate-400"
+                >Soporte Técnico</span
+              >
+            </div>
+          </div>
+
+          <div
+            class="relative border-l-2 border-slate-700 bg-slate-900 p-6 shadow-xl sm:p-8 transition-colors hover:border-blue-500 group"
+          >
+            <span
+              class="absolute -left-[9px] top-10 h-4 w-4 rounded-full bg-slate-700 group-hover:bg-blue-500 transition-colors"
+            ></span>
+
+            <time
+              class="text-xs font-medium text-slate-500 group-hover:text-blue-500 transition-colors uppercase tracking-widest"
+            >
+              Septiembre 2024 — Diciembre 2024
+            </time>
+
+            <h3 class="mt-3 text-xl font-bold text-white">System Analyst</h3>
+            <p class="text-sm font-semibold text-slate-300 italic">
+              Canacintra
+            </p>
+
+            <ul class="mt-4 space-y-2 text-sm text-slate-400">
+              <li class="flex items-start gap-2">
+                <span
+                  class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500"
+                ></span>
+                Diseño de diagramas UML y comunicación con clientes para
+                definición de requerimientos.
+              </li>
+              <li class="flex items-start gap-2">
+                <span
+                  class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500"
+                ></span>
+                Limpieza y migración de datos asegurando la integridad en bases
+                de datos.
+              </li>
+            </ul>
+
+            <div class="mt-6 flex flex-wrap gap-2">
+              <span
+                class="rounded-full bg-slate-800 px-3 py-1 text-xs font-medium text-slate-400"
+                >Python 3.12.2</span
+              >
+              <span
+                class="rounded-full bg-slate-800 px-3 py-1 text-xs font-medium text-slate-400"
+                >Odoo 17</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <form
+      action="#"
+      class="mx-auto grid max-w-lg grid-cols-1 gap-4 rounded-xl border border-slate-800 bg-slate-900 p-8 shadow-2xl sm:grid-cols-2"
+    >
+      <div class="md:col-span-2">
+        <h2 class="text-2xl font-bold text-white mb-2">Ponte en contacto</h2>
+        <p class="text-sm text-slate-400 mb-4">
+          ¿Tienes un proyecto en mente? Hablemos sobre cómo puedo ayudarte.
+        </p>
+      </div>
+
+      <div class="md:col-span-2">
+        <label class="block text-sm font-medium text-slate-300" for="name">
+          Nombre Completo
+        </label>
+
+        <input
+          class="mt-1 w-full rounded-lg border-slate-700 bg-slate-950 p-3 text-white shadow-sm transition-all focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+          id="name"
+          type="text"
+          placeholder="Iván Aguirre"
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-slate-300" for="email">
+          Email
+        </label>
+
+        <input
+          class="mt-1 w-full rounded-lg border-slate-700 bg-slate-950 p-3 text-white shadow-sm transition-all focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+          id="email"
+          type="email"
+          placeholder="ejemplo@correo.com"
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-slate-300" for="phone">
+          Teléfono
+        </label>
+
+        <input
+          class="mt-1 w-full rounded-lg border-slate-700 bg-slate-950 p-3 text-white shadow-sm transition-all focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+          id="phone"
+          type="tel"
+          placeholder="+52 614..."
+        />
+      </div>
+
+      <div class="md:col-span-2">
+        <label class="block text-sm font-medium text-slate-300" for="message">
+          Mensaje
+        </label>
+
+        <textarea
+          class="mt-1 w-full resize-none rounded-lg border-slate-700 bg-slate-950 p-3 text-white shadow-sm transition-all focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+          id="message"
+          rows="4"
+          placeholder="Cuéntame sobre tu proyecto..."
+        ></textarea>
+      </div>
+
+      <div class="md:col-span-2 mt-2">
+        <button
+          class="block w-full rounded-lg border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-bold text-white transition-all hover:bg-transparent hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 active:scale-95"
+          type="submit"
+        >
+          Enviar Mensaje
+        </button>
+      </div>
+    </form>
+
+    <footer class="bg-slate-950 pt-6 lg:grid lg:grid-cols-5">
+      <div class="relative block h-32 lg:col-span-2 lg:h-full">
+        <img
+          src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1160"
+          alt="Workstation"
+          class="absolute inset-0 h-full w-full object-cover opacity-50"
+        />
+      </div>
+
+      <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+          <div>
+            <p>
+              <span class="text-xs tracking-wide text-blue-500 uppercase">
+                Hablemos
+              </span>
+
+              <a
+                href="mailto:ivan.aguirre1603@gmail.com"
+                class="block text-xl font-medium text-white hover:text-blue-400 sm:text-2xl transition"
+              >
+                ivan.aguirre1603@gmail.com
+              </a>
+              <span class="block text-slate-400 mt-2">+52 614 155 45 99</span>
+            </p>
+
+            <ul class="mt-8 space-y-2 text-sm text-slate-300">
+              <li class="font-bold text-white uppercase text-xs text-blue-500">
+                Educación
+              </li>
+              <li>
+                Ingeniería en Software y Gestión de Negocios (UTCH) - 2025
+                Presente
+              </li>
+              <li>
+                TSU Desarrollo de Software Multiplataforma (UTCH) - 2023 / 2024
+              </li>
+            </ul>
+
+            <ul class="mt-8 flex gap-6">
+              <li>
+                <a
+                  href="https://github.com/tu-usuario"
+                  class="text-slate-300 transition hover:text-blue-500"
+                >
+                  <span class="sr-only">GitHub</span>
+                  <svg class="size-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                      d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div>
+              <p class="font-medium text-white">Tecnologías</p>
+              <ul class="mt-6 space-y-4 text-sm text-slate-400">
+                <li>
+                  <span class="text-blue-500">Backend:</span> Python, Java, PHP
+                </li>
+                <li>
+                  <span class="text-blue-500">Frontend:</span> React,
+                  TailwindCSS, Bootstrap
+                </li>
+                <li>
+                  <span class="text-blue-500">Mobile:</span> Flutter, Dart
+                </li>
+                <li>
+                  <span class="text-blue-500">DB/Cloud:</span> MySQL,
+                  PostgreSQL, Firebase, Supabase, Redis
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="font-medium text-white">Proyectos Destacados</p>
+              <ul class="mt-6 space-y-4 text-sm text-slate-400">
+                <li>
+                  <a href="#" class="hover:text-blue-400 transition"
+                    >AirWise Systems</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-blue-400 transition"
+                    >Análisis de Datos SQL</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-blue-400 transition"
+                    >Panel Admin FastAPI</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 border-t border-slate-800 pt-12">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <p class="text-xs text-slate-500">
+              © 2026 Iván Aguirre. Chihuahua, México.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>
